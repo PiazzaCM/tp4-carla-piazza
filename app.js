@@ -14,4 +14,6 @@ app.use(helmet());
 //routes
 app.use(require('./src/routes/tp.routes'))
 
-app.listen(6000);
+
+//el puerto 6000 esta reservado para windows
+app.listen(4000);

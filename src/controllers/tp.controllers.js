@@ -1,3 +1,5 @@
+const ctrl = {};
+
 
 ctrl.postTp = (req, res)=>{
     res.send('post')
